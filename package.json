@@ -1,12 +1,22 @@
 {
   "name": "smile-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A simple command Line Application that checks your current Internet Data Balance",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  "preferGlobal": true,
+  "bin": {
+    "smile": "index.js"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "nightmare": "^3.0.1",
+    "ora": "^3.2.0"
+  }
 }
