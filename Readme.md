@@ -8,8 +8,9 @@ This a simple command line application that fetches your current data balance fr
 
 ### Usage
 To fetch your data balance type the following in your terminal
-`$ smile -u 'username' -p 'password'`
-Replacing username and passowrd with your details. (NOTE: Your details are not persisted anywhere). 
+`$ smile -u 'username'`
+Replacing `username` with your details. (NOTE: Your details are not persisted anywhere). 
+Type in your password ath the prompt.
 
 Contributions and Issues are welcome
 
