@@ -1,6 +1,6 @@
 {
   "name": "smile-cli",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "A simple command Line Application that checks your current Internet Data Balance",
   "main": "index.js",
   "scripts": {

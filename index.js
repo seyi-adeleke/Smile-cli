@@ -3,7 +3,7 @@ const program = require('commander');
 const handler = require('./lib');
 
 program
-  .version('0.0.1')
+  .version('1.0.1')
   .option('-u, --username <required>', 'Your Smile Username')
   .parse(process.argv);
 
