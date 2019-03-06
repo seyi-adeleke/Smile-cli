@@ -5,7 +5,6 @@ const handler = require('./lib');
 program
   .version('0.0.1')
   .option('-u, --username <required>', 'Your Smile Username')
-  .option('-p, --password <required>', 'Your smile Password')
   .parse(process.argv);
 
 program.on('--help', () => {
